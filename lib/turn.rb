@@ -23,24 +23,16 @@ def move(board, index, value)
 end
 
 def turn(board)
-    puts "Please enter 1-9:"
 
-do
+    do
+    puts "Please enter 1-9:"
     input = gets.chomp
     index = input_to_index(input)
-
-break if
+    break if index > -1
 
 end
 
-#     if user_input <= 1 && user_input <= 9
-#     move(board, index, value)
-#     user_input = 1
-#     while user_input <= 9
-#       user_input += 1
-#     end
-# else
-#   puts "Please enter 1-9"
+
 end
 
 # get input
