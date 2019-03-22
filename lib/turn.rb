@@ -29,6 +29,4 @@ def turn(board)
     index = input_to_index(input)
     break if index > -1
   end
-
-  move(board, index)
 end
