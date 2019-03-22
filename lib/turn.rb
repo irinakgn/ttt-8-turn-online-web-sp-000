@@ -23,7 +23,7 @@ def move(board, index, value)
 end
 def turn(board)
     puts "Please enter 1-9:"
-    if input =< 1 && input =< 9
+    if input <= 1 && input <= 9
     move(board, index, value)
 else
   puts "Please enter 1-9"
