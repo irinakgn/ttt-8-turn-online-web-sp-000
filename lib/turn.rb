@@ -29,7 +29,7 @@ def turn(board)
     input = gets.chomp
     index = input_to_index(input)
     break if index > -1
-end
+  end
 
 
 end
