@@ -11,9 +11,5 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  if user_input.is_a? Numeric
-    puts  user.to_i
-  else
-    puts nil
-  end
+  user_input.is_a? Numeric ? user_input.to_i : nil
 end
