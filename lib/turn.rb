@@ -22,7 +22,7 @@ def move(board, index, value)
   board[index] = value
 end
 
-def turn()
+def turn(board)
   loop  do
     puts "Please enter 1-9:"
     input = gets.chomp
