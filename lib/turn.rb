@@ -15,5 +15,9 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
+ if index == -1
+    puts false
+  else
    board[index] != 'X' && board[index] != 'O'
+ end
 end
