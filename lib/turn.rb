@@ -25,6 +25,10 @@ def turn(board)
     puts "Please enter 1-9:"
     if input <= 1 && input <= 9
     move(board, index, value)
+    input = 1
+    while input <= 9
+      input += 1
+    end
 else
   puts "Please enter 1-9"
 end
