@@ -11,7 +11,5 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-   Integer(user_input || '') -1
-    rescue ArgumentError
-    nil
+  input = user.to_i
 end
