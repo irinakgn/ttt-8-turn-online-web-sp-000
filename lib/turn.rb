@@ -19,5 +19,5 @@ def valid_move?(board, index)
 end
 
 def move(board, index, value)
-  board[board.length-1] = value
+  board[index] = value
 end
