@@ -30,6 +30,7 @@ def turn(board)
     index = input_to_index(input)
     break if index > -1
   end
+  valid_move?(board, index)
   move(board, index, 'X')
   display_board(board)
 end
